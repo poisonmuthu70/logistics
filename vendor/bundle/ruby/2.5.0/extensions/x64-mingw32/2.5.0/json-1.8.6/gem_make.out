@@ -1,0 +1,13 @@
+current directory: C:/Users/Admin/muthukumar/newapp/vendor/bundle/ruby/2.5.0/gems/json-1.8.6/ext/json
+C:/Ruby25-x64/bin/ruby.exe -r ./siteconf20200422-13200-y309yn.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/Admin/muthukumar/newapp/vendor/bundle/ruby/2.5.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: C:/Users/Admin/muthukumar/newapp/vendor/bundle/ruby/2.5.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: C:/Users/Admin/muthukumar/newapp/vendor/bundle/ruby/2.5.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

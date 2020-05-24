@@ -1,0 +1,54 @@
+<h3>Profile Page for <%= @user.first_name %> <%= @user.last_name %></h3>
+<a href="/sessions" data-method="delete">Logout</a>
+<table width=25% align="center"> 
+	<tr>
+		<td> First Name : </td>
+		<td> <input type=" text" name="text" value="<%= @user.first_name %>" disabled> </td>
+	</tr>
+	<tr>
+		<td> Last Name : </td>
+		<td> <input type=" text" name="text" value="<%= @user.last_name %>" disabled> </td>
+	
+	</tr>
+	<tr>
+		<td> Email id : </td>
+		<td> <input type=" text" name="text" value="<%= @user.email %>" disabled> </td>
+	</tr>
+	<tr>
+		<td> occupation : </td>
+		<td> <input type=" text" name="text" value="<%= @user.occupation %>" disabled> </td>
+	
+	</tr>
+	<tr>
+		<td> Phone Number : </td>
+		<td> <input type=" text" name="text" value="<%= @user.phone_number %>" disabled> </td>
+	</tr>
+	<tr>
+		<td> Address : </td>
+		<td> <input type=" text" name="text" value="<%= @user.address %>" disabled> </td>
+	</tr>
+	<tr>
+		<td> City : </td>
+		<td> <input type=" text" name="text" value="<%= @user.city %>" disabled> </td>
+	</tr>
+	<tr>
+		<td> State : </td>
+		<td> <input type=" text" name="text" value="<%= @user.state %>" disabled> </td>
+	</tr>
+	<tr>
+		<td> Pincode : </td>
+		<td> <input type=" text" name="text" value="<%= @user.pincode %>" disabled> </td>
+	</tr>
+	<tr>
+		<td> Vehile  Number : </td>
+		<td> <input type=" text" name="text" value="<%= @user.vechile_no %>" disabled> </td>	
+	</tr>
+</table>
+
+	<h3> You are deliverd  	<% if @user.delivery_count == nil  %>
+							0
+							<% else %>
+							<%= @user.delivery_count %>
+							<% end %>
+	 </h3>
+
